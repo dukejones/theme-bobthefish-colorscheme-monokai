@@ -6,20 +6,33 @@ This could be a bunch of custom themes, or end up just being the Monokai one.  T
 Use
 ---
 
-Examples here are using [triton](https://github.com/dukejones/triton), but it'll also work with fisher et al.
+Examples here are using [triton](https://github.com/dukejones/triton), but it should also work with other package managers.
 
-```bash
+```fish
 
-# in ~/.config/fish/conf.d/theme-settings.fish or config.fish
+# in ~/.config/fish/config.fish or perhaps ~/.config/fish/conf.d/theme-settings.fish
 
-triton dukejones/theme-bobthefish
 triton dukejones/theme-bobthefish-colorschemes
 set -g theme_color_scheme monokai 
 
 
 ```
 
+RFP
+---
+Do you have a color scheme that you love, yet also want all the rich features of bob the fish? Copy the `__bobthefish_color_scheme_monokai` function into your own function/file and submit a pull request!
+
+The naming scheme must be:
+
+`function __bobthefish_color_scheme_$myname`
+
+Then
+
+`set -g theme_color_scheme $myname`
+
+to activate it.
+
 TODO
 ----
 
-Future work includes rendering all the custom themes programmatically and including screenshots here in the readme.
+Include screenshots of the different themes here in the readme.
