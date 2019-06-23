@@ -6,7 +6,7 @@ This could be a bunch of custom themes, or end up just being the Monokai one.  T
 Use
 ---
 
-Examples here are using [triton](https://github.com/dukejones/triton), but it should also work with other package managers.
+Examples here are using [triton](https://github.com/dukejones/triton), but it should also work with other fish shell package managers.
 
 ```fish
 

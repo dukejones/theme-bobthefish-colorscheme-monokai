@@ -46,4 +46,5 @@ function __bobthefish_color_scheme_monokai -S -d 'Monokai colors'
   set -x color_virtualfish              $base0D $colorfg --bold
   set -x color_virtualgo                $base0D $colorfg --bold
   set -x color_desk                     $base0D $colorfg --bold
+  set -x color_nix                      $base0D $colorfg --bold
 end
